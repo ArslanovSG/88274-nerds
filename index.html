@@ -1,12 +1,246 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <title>HTML Academy: Нёрдс</title>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> -->
   </head>
+  
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Профессиональный HTML и CSS, уровень 1</a>».</p>
-
-  </body>
+	
+		<header class="main-header">
+			<div class="container">
+				<nav class="main-navigation">
+					<a class="main-logo">
+						<img src="http://placehold.it/150x100">
+					</a>
+					<ul class="main-navigation__list">
+						<li class="main-navigation__item">
+							<a class="main-navigation__link" href="#">
+								Студия
+							</a>
+						</li>
+						<li class="main-navigation__item">
+							<a class="main-navigation__link" href="#">
+								Клиенты
+							</a>
+						</li>
+						<li class="main-navigation__item">
+							<a class="main-navigation__link" href="catalog.html">
+								Магазин
+							</a>
+						</li>
+						<li class="main-navigation__item">
+							<a class="main-navigation__link" href="#">
+								Контакты
+							</a>
+						</li>
+					</ul>
+					<ul class="cart">
+						<li class="cart__item">
+							<a class="cart__link" href="#">
+								Корзина
+							</a>
+						</li>
+					</ul>
+				</nav>
+				
+				<section class="slider">
+					<h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+					<input class="visually-hidden" type="radio" id="slider-1" name="toggle" checked>
+					<input class="visually-hidden" type="radio" id="slider-2" name="toggle">
+					<input class="visually-hidden" type="radio" id="slider-3" name="toggle">
+					<div class="slider-controls">
+						<label class="slider-controls__label slider-controls__label_1" for="slider-1">Слайдер1</label>
+						<label class="slider-controls__label slider-controls__label_2" for="slider-2">Слайдер2</label>
+						<label class="slider-controls__label slider-controls__label_3" for="slider-3">Слайдер3</label>
+					</div>
+					<ul class="slider-list">
+						<li class="slider-list__item">
+							<b class="slider-list__title">Долго, дорого,<br>скрупулезно.</b>
+							<p class="slider-list__text">
+								Математический выверенный дизайн<br>для вашего сайта или мобильного приложения.
+							</p>
+							<a class="slider-list__btn button" href="#">Узнать больше</a>
+						</li>
+						<li class="slider-list__item">
+							<b class="slider-list__title">Любим математику<br> как никто другой.</b>
+							<p class="slider-list__text">
+								Никакого креатива, только математические формулы для расчета идеальных пропорций.
+							</p>
+							<a class="slider-list__btn button" href="#">Узнать больше</a>
+						</li>
+						<li class="slider-list__item">
+							<b class="slider-list__title">Только ночь,<br>только хардкор.</b>
+							<p class="slider-list__text">
+								Работать ночь, как все? Мы против этого.<br>Ближе к полуночи работа только начинается.
+							</p>
+							<a class="slider-list__btn button" href="#">Узнать больше</a>
+						</li>
+					</ul>	
+				</section>
+			</div>
+		</header>
+		
+		<main class="container">
+		
+			<section class="services">
+				<h2 class="visually-hidden">Наши услуги</h2>
+				<ul class="services-list">
+					<li class="services-list__item">
+						<img src="http://placehold.it/150x100">
+						<h3 class="services-list__title">Веб-сайты</h3>
+						<p class="services-list__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+						<a class="services-list__link services-list__link-red button" href="#">ЗАКАЗАТЬ</a>
+					</li>
+					<li class="services-list__item">
+						<img src="http://placehold.it/150x100">
+						<h3 class="services-list__title">Приложения</h3>
+						<p class="services-list__text">Покорите топ-10 приложений в AppStore и Google Play</p>
+						<a class="services-list__link services-list__link-green button" href="#">ЗАКАЗАТЬ</a>
+					</li>
+					<li class="services-list__item">
+						<img src="http://placehold.it/150x100">
+						<h3 class="services-list__title">Презентации</h3>
+						<p class="services-list__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+						<a class="services-list__link services-list__link-yellow button" href="#">ЗАКАЗАТЬ</a>
+					</li>
+				</ul>
+			</section>
+			
+			<section class="features">
+				<h2 class="visually-hidden">Наши принципы</h2>
+				<div class="features-description">
+					<p class="features-description__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
+					<p class="features-description__text">
+						Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
+					</p>
+					<p class="features-description__subtitle">Выполняем заказы на разработку:</p>
+					<ul class="features-description__list">
+						<li class="features-description__item">
+							Веб-сайтов любой сложности
+						</li>
+						<li class="features-description__item">
+							Мобильных приложений для iOS и Android
+						</li>
+						<li class="features-description__item">
+							Слайдшоу и видео для корпоративных презентаций
+						</li>
+					</ul>
+				</div>
+				<div class="features-numbers">
+					<img src="http://placehold.it/150x100">
+					<table class="features-numbers__table">
+						<caption class="features-numbers__table-title">с 2004 года Любим точность во всем:</caption>
+						<tr class="features-numbers__table-title-row1">
+							<td class="features-numbers__table-title-cell-1">146<span>%</span></td>
+							<td class="features-numbers__table-title-cell-1">100<span>%</span></td>
+							<td class="features-numbers__table-title-cell-1">50<span>%</span></td>
+						</tr>
+						<tr class="features-numbers__table-title-row2">
+							<th class="features-numbers__table-title-cell-2">Уровень самоотдачи</th>
+							<th class="features-numbers__table-title-cell-2">Соблюдение сроков</th>
+							<th class="features-numbers__table-title-cell-2">Минимальная предоплата</th>
+						</tr>
+					</table>
+				</div>
+			</section>
+			
+			<section class="partners">
+				<h2 class="visually-hidden">Наши партнеры</h2>
+				<ul class="partners__list">
+					<li class="partners__item">
+						<a class="partners__link" href="https://htmlacademy.ru/intensive/htmlcss" target="_blank">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</li>
+					<li class="partners__item">
+						<a class="partners__link" href="#">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</li>
+					<li class="partners__item">
+						<a class="partners__link" href="#">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</li>
+					<li class="partners__item">
+						<a class="partners__link" href="#">
+							<img src="http://placehold.it/150x100">
+						</a>
+					</li>
+				</ul>
+			</section>
+		
+		</main>
+		
+		<footer class="main-footer">
+			
+		<!-- 	<iframe class="footer-map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424123868!2d30.32089461588742!3d59.938796869048105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1525682351732" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+			<div class="container">
+				<div class="footer-map__block">
+					<img src="http://placehold.it/150x100">
+					<div class="footer-map__contacts">
+						<p class="footer-map__title">NЁRDS DESIGN STUDIO</p>
+						<p class="footer-map__adress">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+						<p class="footer-map__tel">тел. 
+							<a class="footer-map__tel-link" href="+7 (812) 275-75-75">+7 (812) 275-75-75</a>
+						</p>
+						<a class="footer-map__btn button" href="modal.html">Напишите нам</a>
+					</div>
+				</div>
+				
+				<div class="footer-social">
+					<ul class="footer-social__list">
+						<li class="footer-social__item">
+							<a class="button footer-social__link footer-social__link-vk" href="#">
+								<span class="visually-hidden">Вконтакте</span>
+							</a>
+						</li>
+						<li class="footer-social__item">
+							<a class="button footer-social__link footer-social__link-fb" href="#">
+								<span class="visually-hidden">Фейсбук</span>
+							</a>
+						</li>
+						<li class="footer-social__item">
+							<a class="button footer-social__link footer-social__link-insta" href="#">
+								<span class="visually-hidden">Инстаграм</span>
+							</a>
+						</li>
+					</ul>
+					<div class="footer-social__slogan">
+						<b class="footer-social__title">Давайте дружить, это выгодно!</b>
+						<p class="footer-social__text">Скидка 10% для друзей из социальных сетей.</p>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		
+		<section class="modal">
+			<h2 class="visually-hidden">Отзыв</h2>
+			<button class="modal-close" type="button"><span class="visually-hidden">Закрыть</span></button>
+			<form class="modal-form" action="https://echo.htmlacademy.ru" method="post">
+				<b class="modal-form__title">Напишите нам</b>
+				<div class="modal-form__block">
+					<div class="modal-form__block_name">
+						<label for="name">Ваше имя:</label>
+						<input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста">
+					</div>
+					<div class="modal-form__block_email">
+						<label for="email">Ваш e-mail:</label>
+						<input type="email" name="email" id="email" placeholder="Для отправки ответа">
+					</div>
+				</div>
+				<div class="modal-form__block_feedback">
+					<label for="feedback">Текст письма:</label>
+					<textarea name="feedback" id="feedback" placeholder="В свободной форме"></textarea>
+				</div>
+				<button class="button modal-form__block_btn" type="submit">Отправить</button>
+			</form>
+		</section>
+		<!-- <script src="js/main.js"></script> -->
+	</body>
 </html>
