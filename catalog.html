@@ -37,10 +37,8 @@
 								Контакты
 							</a>
 						</li>
-					</ul>
-					<ul class="cart">
-						<li class="cart__item">
-							<a class="cart__link" href="#">
+						<li class="main-navigation__item main-navigation__item-cart">
+							<a class="main-navigation__link main-navigation__link-cart" href="#">
 								Корзина
 							</a>
 						</li>
@@ -138,15 +136,17 @@
 						<li class="work-sort__item">
 							<a class="work-sort__link work-sort__link-active work-sort__link-icon-down" href="#">
 								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-									<path fill="#231F20" d="M5.5 10L0 0h11" />
+									<path fill="#231F20" d="M5.5 10L0 0h11"/>
 								</svg>
+								<span class="visually-hidden">По убыванию</span>
 							</a>
 						</li>
 						<li class="work-sort__item">
 							<a class="work-sort__link work-sort__link-icon-up" href="#">
 								<svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-									<path fill="#231F20" d="M5.5 0L0 10h11z" />
+									<path fill="#231F20" d="M5.5 0L0 10h11z"/>
 								</svg>
+								<span class="visually-hidden">По возрастанию</span>
 							</a>
 						</li>
 					</ul>
@@ -156,7 +156,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-sedona.jpg" width="358" height="574" alt="Sedona">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">Sedona</h3>
+							<a class="work-catalog__title" href="#">Sedona</a>
 							<p class="work-catalog__descr work-catalog__descr-sedona">Информационный сайт для туристов</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -164,7 +164,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-pink.jpg" width="358" height="574" alt="Pink">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">Pink App</h3>
+							<a class="work-catalog__title" href="#">Pink App</a>
 							<p class="work-catalog__descr work-catalog__descr-pink">Продуктовый лендинг приложения для iOS и Android</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -172,7 +172,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-barbershop.jpg" width="358" height="574" alt="Barbershop">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">Barbershop</h3>
+							<a class="work-catalog__title" href="#">Barbershop</a>
 							<p class="work-catalog__descr work-catalog__descr-barber">Сайт салоны красоты. Для мужчин, да.</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -180,7 +180,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-mishka.jpg" width="358" height="574" alt="Mishka">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">Mishka</h3>
+							<a class="work-catalog__title" href="#">Mishka</a>
 							<p class="work-catalog__descr work-catalog__descr-mishka">Интернет-магазин вязаных игрушек</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -188,7 +188,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-aplus.jpg" width="358" height="574" alt="A Plus">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">A Plus</h3>
+							<a class="work-catalog__title" href="#">A Plus</a>
 							<p class="work-catalog__descr work-catalog__descr-aplus">Лендинг курсов повышения квалификации</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -196,7 +196,7 @@
 					<li class="work-catalog__item">
 						<img class="work-catalog__img" src="img/img-kvast.jpg" width="358" height="574" alt="Кваст">
 						<div class="work-catalog__block">
-							<h3 class="work-catalog__title">Кваст</h3>
+							<a class="work-catalog__title" href="#">Кваст</a>
 							<p class="work-catalog__descr work-catalog__descr-kvast">Промо-сайт производителя крафтового кваса</p>
 							<a class="button work-catalog__link" href="#">9 900 руб.</a>
 						</div>
@@ -287,6 +287,6 @@
 				<button class="button modal-form__block_btn" type="submit">Отправить</button>
 			</form>
 		</section>
-		<script src="js/main.js"></script>
+		<script src="js/main.min.js"></script>
 	</body>
 </html>
